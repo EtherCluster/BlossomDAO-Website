@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const DiscordBtn = styled.div`
   opacity: 1;
-  background: #f32e60;
+  background: #FF354D;
   color: #ffffff;
   padding: 12px 20px;
   border-radius: 30px;
-  box-shadow: 0 10px 20px -10px #f32e60;
+  box-shadow: 0 10px 20px -10px #FF354D;
 `;
 
 export const SiteTitle = styled.span`
-  color: #f32e60;
+  color: #FF354D;
   font-weight: 700;
   font-size: 20px;
 `;
@@ -20,16 +20,16 @@ export const Logo = styled.span`
 `;
 
 export const Title = styled.h1`
-  color: #f32e60;
+  color: #FF354D;
   font-weight: 700;
 `;
 
 export const PinkText = styled.span`
-  color: #f32e60;
+  color: #FF354D;
 `;
 
 export const PinkCard = styled.div`
-  background: #f32e60;
+  background: #FF354D;
   color: #ffffff;
 `;
 

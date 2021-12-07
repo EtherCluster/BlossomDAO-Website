@@ -24,7 +24,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0 mr-4">
             <a to="/" className="block" aria-label="BlossomDAO">
-              <Logo>🌸</Logo> <SiteTitle>BlossomDAO</SiteTitle>
+              <span className="flex items-center">
+            <img src="/assets/bdaologo.png" style={{height: 70}}></img> <SiteTitle>BlossomDAO</SiteTitle></span>
             </a>
           </div>
           <div className="-mr-2 hidden md:block">

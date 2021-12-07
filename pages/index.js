@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import { Title, DiscordBtn, PinkText, PinkCard, Button, Logo } from "../styles/index.tw";
 
 import pika from "../assets/pikadao.gif";
+import bdaologo from "../assets/bdaologo.png";
 
 const code = `BlossomDAO = {
   "About": {
@@ -41,8 +42,8 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="max-w-7xl mx-auto px-4 pt-16 sm:px-6 md:px-8 sm:pt-6 md:pt-8 flex-1">
-            <Image src={pika} alt="" />
+          <div className="flex-1 transform scale-140">
+            <Image src={bdaologo} alt=""  style={{height: 800}}/>
           </div>
         </div>
 

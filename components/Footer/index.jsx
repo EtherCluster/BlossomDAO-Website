@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { Logo, SiteTitle, DiscordBtn } from "../../styles/index.tw";
+// import bdaologo from "../../../Images/";
 
 export default function Header() {
   return (
-    <footer className="flex space-x-4 flex-grow my-14 mx-auto w-full max-w-6xl">
-      <div className="flex flex-col justify-start m-auto flex-1">
+    <footer className="flex space-x-4 flex-grow my-14 mx-auto w-full max-w-6xl justify-center lg:pl-48">
+      <div className="flex flex-col justify-start m-auto flex-1 justify-center">
         <div className="justify-start px-4 sm:px-6 md:px-8 flex-1">
-          <Logo>🌸</Logo>
+        <img src="/assets/bdaologo.png" style={{height: 100}}></img>
+
+
         </div>
-        <div className="px-4 sm:px-6 md:px-8 flex-1 text-lg">BlossomDAO</div>
+        <div className="px-4 sm:px-6 md:px-8 flex-1 text-lg ">BlossomDAO</div>
         <div className="mx-auto mt-6 text-sm text-gray-600 px-4 sm:px-6 md:px-8 flex-1">
           Copyright © 2021 BlossomDAO.eth All rights reserved.
         </div>
